@@ -3,7 +3,7 @@
 
 using namespace std;
 int main() {
-    vector<int> arr = {1, 2, 3, 4, 5};
+    vector<int> arr = {1,2,3,4,3,2,1};
     vector<int>::iterator it = arr.begin();
 
     
