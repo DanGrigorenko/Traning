@@ -9,12 +9,10 @@ int main()
 {
     const int N = 6;
     int mas[N], f=0;
-    for (int i = 0; i < N; i++)
-    {
+    for (int i = 0; i < N; i++) {
         cout << "Введите значение элемента  mas["<<i<<"];";
         cin >> mas[i];
-        if (mas[i] > 0)
-        {
+        if (mas[i] > 0) {
             f++;
         }
     }  
